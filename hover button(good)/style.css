@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:700);
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 10%;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.butt {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#333)), -webkit-gradient(linear, left top, left bottom, from(#333), to(#333)), -webkit-gradient(linear, left top, left bottom, from(#333), to(#333)), -webkit-gradient(linear, left top, left bottom, from(#333), to(#333)), -webkit-gradient(linear, left top, left bottom, from(#333), to(#333)), -webkit-gradient(linear, left top, left bottom, from(#333), to(#333)), -webkit-gradient(linear, left top, left bottom, from(#333), to(#333)), -webkit-gradient(linear, left top, left bottom, from(#333), to(#333));
+  background-image: -webkit-linear-gradient(#333, #333), -webkit-linear-gradient(#333, #333), -webkit-linear-gradient(#333, #333), -webkit-linear-gradient(#333, #333), -webkit-linear-gradient(#333, #333), -webkit-linear-gradient(#333, #333), -webkit-linear-gradient(#333, #333), -webkit-linear-gradient(#333, #333);
+  background-image: linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333);
+  background-repeat: no-repeat;
+  -webkit-background-size: 2rem 5px, 2rem 5px, 2rem 5px, 2rem 5px, 5px 2rem, 5px 2rem, 5px 2rem, 5px 2rem;
+  background-size: 2rem 5px, 2rem 5px, 2rem 5px, 2rem 5px, 5px 2rem, 5px 2rem, 5px 2rem, 5px 2rem;
+  background-position: 0 0, 100% 0, 0 100%, 100% 100%;
+  -webkit-box-shadow: inset 0 0 0 5px rgba(255, 99, 71, 0);
+  box-shadow: inset 0 0 0 5px rgba(255, 99, 71, 0);
+  -webkit-transition: background-size 1s .4s,  -webkit-box-shadow .4s,  color .4s;
+  transition: background-size 1s .4s,  box-shadow .4s,  color .4s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.butt:hover {
+  color: tomato;
+  -webkit-background-size: 100% 5px, 100% 5px, 100% 5px, 100% 5px, 5px 100%, 5px 100%, 5px 100%, 5px 100%;
+  background-size: 100% 5px, 100% 5px, 100% 5px, 100% 5px, 5px 100%, 5px 100%, 5px 100%, 5px 100%;
+  -webkit-box-shadow: inset 0 0 0 5px tomato;
+  box-shadow: inset 0 0 0 5px tomato;
+  -webkit-transition: background-size 1s,  -webkit-box-shadow .4s .6s,  color .4s .6s;
+  transition: background-size 1s,  box-shadow .4s .6s,  color .4s .6s;
+}
